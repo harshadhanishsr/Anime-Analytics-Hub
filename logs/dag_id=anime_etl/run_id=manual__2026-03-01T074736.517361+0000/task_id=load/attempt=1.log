@@ -1,0 +1,17 @@
+[2026-03-01T07:57:45.383+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: anime_etl.load manual__2026-03-01T07:47:36.517361+00:00 [queued]>
+[2026-03-01T07:57:45.394+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: anime_etl.load manual__2026-03-01T07:47:36.517361+00:00 [queued]>
+[2026-03-01T07:57:45.395+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-01T07:57:45.406+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load> on 2026-03-01 07:47:36.517361+00:00
+[2026-03-01T07:57:45.411+0000] {standard_task_runner.py:60} INFO - Started process 325 to run task
+[2026-03-01T07:57:45.414+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'anime_etl', 'load', 'manual__2026-03-01T07:47:36.517361+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/anime_etl_dag.py', '--cfg-path', '/tmp/tmp9qi4gl47']
+[2026-03-01T07:57:45.416+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask load
+[2026-03-01T07:57:45.471+0000] {task_command.py:423} INFO - Running <TaskInstance: anime_etl.load manual__2026-03-01T07:47:36.517361+00:00 [running]> on host c1d546777f68
+[2026-03-01T07:57:45.555+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='anime_etl' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-03-01T07:47:36.517361+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-01T07:47:36.517361+00:00'
+[2026-03-01T07:57:45.885+0000] {logging_mixin.py:188} INFO - [loader] Schema and indexes ready.
+[2026-03-01T07:57:45.885+0000] {logging_mixin.py:188} INFO - [loader] No clean records to load.
+[2026-03-01T07:57:45.889+0000] {logging_mixin.py:188} INFO - [loader] Quality log: 0/2 passed (2 rejected).
+[2026-03-01T07:57:45.891+0000] {logging_mixin.py:188} INFO - [loader] Watermark updated at 2026-03-01T07:57:45.891876+00:00
+[2026-03-01T07:57:45.892+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-01T07:57:45.904+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=anime_etl, task_id=load, execution_date=20260301T074736, start_date=20260301T075745, end_date=20260301T075745
+[2026-03-01T07:57:45.948+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-01T07:57:45.966+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

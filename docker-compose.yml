@@ -1,0 +1,115 @@
+version: "3.9"
+
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.8.1-python3.11
+  environment:
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:postgres@postgres:5432/anime_db
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__WEBSERVER__SECRET_KEY: "anime-secret-key"
+
+    _PIP_ADDITIONAL_REQUIREMENTS: "requests pandas sqlalchemy psycopg2-binary flask"
+
+    DB_HOST: postgres
+    DB_PORT: "5432"
+    DB_NAME: anime_db
+    DB_USER: postgres
+    DB_PASSWORD: postgres
+
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./pipeline:/opt/airflow/pipeline
+    - ./app:/opt/airflow/app
+    - ./sql:/opt/airflow/sql
+    - ./config.py:/opt/airflow/config.py
+    - ./data:/opt/airflow/data
+    - ./logs:/opt/airflow/logs
+
+  depends_on:
+    postgres:
+      condition: service_healthy
+
+
+services:
+
+  postgres:
+    image: postgres:15
+    container_name: anime_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: anime_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      retries: 10
+
+
+  airflow-init:
+    <<: *airflow-common
+    container_name: anime_airflow_init
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db init
+        airflow users create \
+          --username admin \
+          --password admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com || true
+    restart: "no"
+
+
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: anime_airflow_webserver
+    command: webserver
+    ports:
+      - "8888:8080"
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: anime_airflow_scheduler
+    command: scheduler
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+
+  flask-app:
+    image: apache/airflow:2.8.1-python3.11
+    container_name: anime_flask
+    command: python -m app.main
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: anime_db
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+    volumes:
+      - ./app:/opt/airflow/app
+      - ./pipeline:/opt/airflow/pipeline
+      - ./config.py:/opt/airflow/config.py
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+
+volumes:
+  postgres_data:

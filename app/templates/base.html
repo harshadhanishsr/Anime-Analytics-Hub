@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{% block title %}Anime Analytics Hub{% endblock %}</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0d0d1a; color: #dde3f0; min-height: 100vh; }
+
+    nav {
+      background: #12122a;
+      border-bottom: 2px solid #2e75b6;
+      padding: 14px 36px;
+      display: flex;
+      align-items: center;
+      gap: 36px;
+    }
+    nav .logo { font-size: 1.25rem; font-weight: 700; color: #4ec9b0; letter-spacing: 0.5px; }
+    nav a { color: #8a9ab8; text-decoration: none; font-size: 0.92rem; transition: color 0.2s; }
+    nav a:hover { color: #4ec9b0; }
+
+    .page { max-width: 1200px; margin: 0 auto; padding: 36px 24px; }
+
+    h1 { font-size: 1.75rem; color: #4ec9b0; margin-bottom: 6px; }
+    .subtitle { color: #5a6a80; font-size: 0.9rem; margin-bottom: 32px; }
+
+    /* Stat Cards */
+    .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-bottom: 40px; }
+    .card { background: #181830; border: 1px solid #252545; border-radius: 12px; padding: 22px 20px; text-align: center; }
+    .card .val { font-size: 2rem; font-weight: 700; color: #4ec9b0; }
+    .card .lbl { font-size: 0.78rem; color: #5a6a80; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    /* Health badge */
+    .health { background: #181830; border: 1px solid #252545; border-radius: 12px; padding: 16px 20px; margin-bottom: 32px; font-size: 0.88rem; color: #7a8aa0; }
+    .health strong { color: #4ec9b0; }
+
+    /* Tables */
+    .section { margin-bottom: 44px; }
+    .section h2 { font-size: 1.1rem; color: #90b4d8; margin-bottom: 14px; }
+    table { width: 100%; border-collapse: collapse; background: #181830; border-radius: 12px; overflow: hidden; }
+    thead { background: #1a3a5c; }
+    thead th { padding: 11px 16px; text-align: left; font-size: 0.82rem; color: #8ab8d8; font-weight: 600; letter-spacing: 0.3px; }
+    tbody tr:nth-child(even) { background: #141428; }
+    tbody tr:hover { background: #1e1e3a; }
+    tbody td { padding: 9px 16px; font-size: 0.88rem; border-bottom: 1px solid #1a1a30; }
+    .score  { color: #ffd700; font-weight: 700; }
+    .rank   { color: #4ec9b0; font-weight: 700; }
+    .badge  { display: inline-block; padding: 2px 9px; border-radius: 10px; font-size: 0.75rem; background: #1a3a5c; color: #90b4d8; }
+
+    /* Two-column grid */
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    @media(max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+
+    footer { text-align: center; padding: 28px; color: #2a3a4a; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="logo">🎌 Anime Analytics Hub</span>
+    <a href="/">Dashboard</a>
+    <a href="/top">Top Rated</a>
+    <a href="/popular">Popular</a>
+  </nav>
+
+  <div class="page">
+    {% block content %}{% endblock %}
+  </div>
+
+  <footer>Anime Analytics Hub · Data sourced from MyAnimeList · Pipeline powered by Apache Airflow</footer>
+</body>
+</html>

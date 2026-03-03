@@ -1,0 +1,1002 @@
+[
+  {
+    "anime_id": 52991,
+    "rank": 1,
+    "title": "Sousou no Frieren",
+    "type": "TV",
+    "episodes": 28,
+    "score": 9.28,
+    "members": 1349178,
+    "scraped_at": "2026-03-01T07:57:27.434838+00:00"
+  },
+  {
+    "anime_id": 59978,
+    "rank": 2,
+    "title": "Sousou no Frieren 2nd Season",
+    "type": "TV",
+    "episodes": 10,
+    "score": 9.17,
+    "members": 406994,
+    "scraped_at": "2026-03-01T07:57:27.434871+00:00"
+  },
+  {
+    "anime_id": 5114,
+    "rank": 3,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "type": "TV",
+    "episodes": 64,
+    "score": 9.11,
+    "members": 3643155,
+    "scraped_at": "2026-03-01T07:57:27.434876+00:00"
+  },
+  {
+    "anime_id": 57555,
+    "rank": 4,
+    "title": "Chainsaw Man Movie: Reze-hen",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 9.09,
+    "members": 410216,
+    "scraped_at": "2026-03-01T07:57:27.434880+00:00"
+  },
+  {
+    "anime_id": 9253,
+    "rank": 5,
+    "title": "Steins;Gate",
+    "type": "TV",
+    "episodes": 24,
+    "score": 9.07,
+    "members": 2784647,
+    "scraped_at": "2026-03-01T07:57:27.434884+00:00"
+  },
+  {
+    "anime_id": 38524,
+    "rank": 6,
+    "title": "Shingeki no Kyojin Season 3 Part 2",
+    "type": "TV",
+    "episodes": 10,
+    "score": 9.05,
+    "members": 2557778,
+    "scraped_at": "2026-03-01T07:57:27.434888+00:00"
+  },
+  {
+    "anime_id": 28977,
+    "rank": 8,
+    "title": "Gintama\u00b0",
+    "type": "TV",
+    "episodes": 51,
+    "score": 9.05,
+    "members": 685972,
+    "scraped_at": "2026-03-01T07:57:27.434892+00:00"
+  },
+  {
+    "anime_id": 39486,
+    "rank": 7,
+    "title": "Gintama: The Final",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 9.05,
+    "members": 180596,
+    "scraped_at": "2026-03-01T07:57:27.434897+00:00"
+  },
+  {
+    "anime_id": 11061,
+    "rank": 9,
+    "title": "Hunter x Hunter (2011)",
+    "type": "TV",
+    "episodes": 148,
+    "score": 9.03,
+    "members": 3148870,
+    "scraped_at": "2026-03-01T07:57:27.434902+00:00"
+  },
+  {
+    "anime_id": 60022,
+    "rank": 13,
+    "title": "One Piece Fan Letter",
+    "type": "TV Special",
+    "episodes": 1,
+    "score": 9.02,
+    "members": 145873,
+    "scraped_at": "2026-03-01T07:57:27.434905+00:00"
+  },
+  {
+    "anime_id": 9969,
+    "rank": 11,
+    "title": "Gintama'",
+    "type": "TV",
+    "episodes": 51,
+    "score": 9.02,
+    "members": 607985,
+    "scraped_at": "2026-03-01T07:57:27.434909+00:00"
+  },
+  {
+    "anime_id": 15417,
+    "rank": 12,
+    "title": "Gintama': Enchousen",
+    "type": "TV",
+    "episodes": 13,
+    "score": 9.02,
+    "members": 355314,
+    "scraped_at": "2026-03-01T07:57:27.434913+00:00"
+  },
+  {
+    "anime_id": 820,
+    "rank": 10,
+    "title": "Ginga Eiyuu Densetsu",
+    "type": "OVA",
+    "episodes": 110,
+    "score": 9.02,
+    "members": 358584,
+    "scraped_at": "2026-03-01T07:57:27.434916+00:00"
+  },
+  {
+    "anime_id": 34096,
+    "rank": 15,
+    "title": "Gintama.",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.98,
+    "members": 345656,
+    "scraped_at": "2026-03-01T07:57:27.434920+00:00"
+  },
+  {
+    "anime_id": 41467,
+    "rank": 14,
+    "title": "Bleach: Sennen Kessen-hen",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.98,
+    "members": 688917,
+    "scraped_at": "2026-03-01T07:57:27.434996+00:00"
+  },
+  {
+    "anime_id": 43608,
+    "rank": 16,
+    "title": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.96,
+    "members": 1093140,
+    "scraped_at": "2026-03-01T07:57:27.435004+00:00"
+  },
+  {
+    "anime_id": 42938,
+    "rank": 17,
+    "title": "Fruits Basket: The Final",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.94,
+    "members": 555781,
+    "scraped_at": "2026-03-01T07:57:27.435007+00:00"
+  },
+  {
+    "anime_id": 4181,
+    "rank": 18,
+    "title": "Clannad: After Story",
+    "type": "TV",
+    "episodes": 24,
+    "score": 8.93,
+    "members": 1276266,
+    "scraped_at": "2026-03-01T07:57:27.435012+00:00"
+  },
+  {
+    "anime_id": 918,
+    "rank": 19,
+    "title": "Gintama",
+    "type": "TV",
+    "episodes": 201,
+    "score": 8.93,
+    "members": 1145587,
+    "scraped_at": "2026-03-01T07:57:27.435016+00:00"
+  },
+  {
+    "anime_id": 28851,
+    "rank": 20,
+    "title": "Koe no Katachi",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.93,
+    "members": 2582896,
+    "scraped_at": "2026-03-01T07:57:27.435020+00:00"
+  },
+  {
+    "anime_id": 58514,
+    "rank": 21,
+    "title": "Kusuriya no Hitorigoto 2nd Season",
+    "type": "TV",
+    "episodes": 24,
+    "score": 8.91,
+    "members": 471147,
+    "scraped_at": "2026-03-01T07:57:27.435024+00:00"
+  },
+  {
+    "anime_id": 2904,
+    "rank": 22,
+    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "type": "TV",
+    "episodes": 25,
+    "score": 8.91,
+    "members": 1935453,
+    "scraped_at": "2026-03-01T07:57:27.435027+00:00"
+  },
+  {
+    "anime_id": 35180,
+    "rank": 23,
+    "title": "3-gatsu no Lion 2nd Season",
+    "type": "TV",
+    "episodes": 22,
+    "score": 8.9,
+    "members": 435294,
+    "scraped_at": "2026-03-01T07:57:27.435031+00:00"
+  },
+  {
+    "anime_id": 15335,
+    "rank": 24,
+    "title": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.89,
+    "members": 260766,
+    "scraped_at": "2026-03-01T07:57:27.435036+00:00"
+  },
+  {
+    "anime_id": 19,
+    "rank": 25,
+    "title": "Monster",
+    "type": "TV",
+    "episodes": 74,
+    "score": 8.89,
+    "members": 1306402,
+    "scraped_at": "2026-03-01T07:57:27.435039+00:00"
+  },
+  {
+    "anime_id": 37491,
+    "rank": 26,
+    "title": "Gintama. Shirogane no Tamashii-hen - Kouhan-sen",
+    "type": "TV",
+    "episodes": 14,
+    "score": 8.88,
+    "members": 223864,
+    "scraped_at": "2026-03-01T07:57:29.171550+00:00"
+  },
+  {
+    "anime_id": 51535,
+    "rank": 28,
+    "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
+    "type": "TV Special",
+    "episodes": 2,
+    "score": 8.86,
+    "members": 844142,
+    "scraped_at": "2026-03-01T07:57:29.171575+00:00"
+  },
+  {
+    "anime_id": 35247,
+    "rank": 27,
+    "title": "Owarimonogatari 2nd Season",
+    "type": "TV Special",
+    "episodes": 7,
+    "score": 8.86,
+    "members": 433722,
+    "scraped_at": "2026-03-01T07:57:29.171579+00:00"
+  },
+  {
+    "anime_id": 54492,
+    "rank": 29,
+    "title": "Kusuriya no Hitorigoto",
+    "type": "TV",
+    "episodes": 24,
+    "score": 8.85,
+    "members": 802056,
+    "scraped_at": "2026-03-01T07:57:29.171582+00:00"
+  },
+  {
+    "anime_id": 40682,
+    "rank": 30,
+    "title": "Kingdom 3rd Season",
+    "type": "TV",
+    "episodes": 26,
+    "score": 8.84,
+    "members": 131275,
+    "scraped_at": "2026-03-01T07:57:29.171585+00:00"
+  },
+  {
+    "anime_id": 37987,
+    "rank": 31,
+    "title": "Violet Evergarden Movie",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.84,
+    "members": 717262,
+    "scraped_at": "2026-03-01T07:57:29.171588+00:00"
+  },
+  {
+    "anime_id": 59571,
+    "rank": 32,
+    "title": "Shingeki no Kyojin Movie: Kanketsu-hen - The Last Attack",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.83,
+    "members": 80044,
+    "scraped_at": "2026-03-01T07:57:29.171591+00:00"
+  },
+  {
+    "anime_id": 32281,
+    "rank": 33,
+    "title": "Kimi no Na wa.",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.83,
+    "members": 2996898,
+    "scraped_at": "2026-03-01T07:57:29.171593+00:00"
+  },
+  {
+    "anime_id": 49387,
+    "rank": 34,
+    "title": "Vinland Saga Season 2",
+    "type": "TV",
+    "episodes": 24,
+    "score": 8.82,
+    "members": 831560,
+    "scraped_at": "2026-03-01T07:57:29.171597+00:00"
+  },
+  {
+    "anime_id": 36838,
+    "rank": 35,
+    "title": "Gintama. Shirogane no Tamashii-hen",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.81,
+    "members": 235879,
+    "scraped_at": "2026-03-01T07:57:29.171600+00:00"
+  },
+  {
+    "anime_id": 37510,
+    "rank": 41,
+    "title": "Mob Psycho 100 II",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.78,
+    "members": 1707281,
+    "scraped_at": "2026-03-01T07:57:29.171603+00:00"
+  },
+  {
+    "anime_id": 31758,
+    "rank": 40,
+    "title": "Kizumonogatari III: Reiketsu-hen",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.78,
+    "members": 508113,
+    "scraped_at": "2026-03-01T07:57:29.171606+00:00"
+  },
+  {
+    "anime_id": 2921,
+    "rank": 36,
+    "title": "Ashita no Joe 2",
+    "type": "TV",
+    "episodes": 47,
+    "score": 8.78,
+    "members": 66384,
+    "scraped_at": "2026-03-01T07:57:29.171609+00:00"
+  },
+  {
+    "anime_id": 40028,
+    "rank": 38,
+    "title": "Shingeki no Kyojin: The Final Season",
+    "type": "TV",
+    "episodes": 16,
+    "score": 8.78,
+    "members": 2257946,
+    "scraped_at": "2026-03-01T07:57:29.171611+00:00"
+  },
+  {
+    "anime_id": 37521,
+    "rank": 39,
+    "title": "Vinland Saga",
+    "type": "TV",
+    "episodes": 24,
+    "score": 8.78,
+    "members": 1788511,
+    "scraped_at": "2026-03-01T07:57:29.171613+00:00"
+  },
+  {
+    "anime_id": 263,
+    "rank": 37,
+    "title": "Hajime no Ippo",
+    "type": "TV",
+    "episodes": 75,
+    "score": 8.78,
+    "members": 684569,
+    "scraped_at": "2026-03-01T07:57:29.171616+00:00"
+  },
+  {
+    "anime_id": 32935,
+    "rank": 42,
+    "title": "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+    "type": "TV",
+    "episodes": 10,
+    "score": 8.77,
+    "members": 1316044,
+    "scraped_at": "2026-03-01T07:57:29.171619+00:00"
+  },
+  {
+    "anime_id": 199,
+    "rank": 43,
+    "title": "Sen to Chihiro no Kamikakushi",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.77,
+    "members": 2011470,
+    "scraped_at": "2026-03-01T07:57:29.171621+00:00"
+  },
+  {
+    "anime_id": 48583,
+    "rank": 44,
+    "title": "Shingeki no Kyojin: The Final Season Part 2",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.77,
+    "members": 1532370,
+    "scraped_at": "2026-03-01T07:57:29.171624+00:00"
+  },
+  {
+    "anime_id": 60489,
+    "rank": 45,
+    "title": "Takopii no Genzai",
+    "type": "ONA",
+    "episodes": 6,
+    "score": 8.76,
+    "members": 290330,
+    "scraped_at": "2026-03-01T07:57:29.171627+00:00"
+  },
+  {
+    "anime_id": 17074,
+    "rank": 46,
+    "title": "Monogatari Series: Second Season",
+    "type": "TV",
+    "episodes": 26,
+    "score": 8.76,
+    "members": 714454,
+    "scraped_at": "2026-03-01T07:57:29.171629+00:00"
+  },
+  {
+    "anime_id": 1,
+    "rank": 47,
+    "title": "Cowboy Bebop",
+    "type": "TV",
+    "episodes": 26,
+    "score": 8.75,
+    "members": 2036392,
+    "scraped_at": "2026-03-01T07:57:29.171632+00:00"
+  },
+  {
+    "anime_id": 60098,
+    "rank": 49,
+    "title": "Boku no Hero Academia: Final Season",
+    "type": "TV",
+    "episodes": 11,
+    "score": 8.73,
+    "members": 277001,
+    "scraped_at": "2026-03-01T07:57:29.171635+00:00"
+  },
+  {
+    "anime_id": 53223,
+    "rank": 51,
+    "title": "Kingdom 5th Season",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.73,
+    "members": 60587,
+    "scraped_at": "2026-03-01T07:57:29.171637+00:00"
+  },
+  {
+    "anime_id": 47917,
+    "rank": 48,
+    "title": "Bocchi the Rock!",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.73,
+    "members": 771155,
+    "scraped_at": "2026-03-01T07:57:29.171640+00:00"
+  },
+  {
+    "anime_id": 50160,
+    "rank": 50,
+    "title": "Kingdom 4th Season",
+    "type": "TV",
+    "episodes": 26,
+    "score": 8.73,
+    "members": 88453,
+    "scraped_at": "2026-03-01T07:57:30.484197+00:00"
+  },
+  {
+    "anime_id": 21,
+    "rank": 52,
+    "title": "One Piece",
+    "type": "TV",
+    "episodes": null,
+    "score": 8.73,
+    "members": 2641405,
+    "scraped_at": "2026-03-01T07:57:30.484217+00:00"
+  },
+  {
+    "anime_id": 52198,
+    "rank": 53,
+    "title": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.72,
+    "members": 370430,
+    "scraped_at": "2026-03-01T07:57:30.484221+00:00"
+  },
+  {
+    "anime_id": 39894,
+    "rank": 56,
+    "title": "Hibike! Euphonium 3",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.72,
+    "members": 95679,
+    "scraped_at": "2026-03-01T07:57:30.484224+00:00"
+  },
+  {
+    "anime_id": 24701,
+    "rank": 54,
+    "title": "Mushishi Zoku Shou 2nd Season",
+    "type": "TV",
+    "episodes": 10,
+    "score": 8.72,
+    "members": 290827,
+    "scraped_at": "2026-03-01T07:57:30.484227+00:00"
+  },
+  {
+    "anime_id": 48569,
+    "rank": 55,
+    "title": "86 Part 2",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.72,
+    "members": 628616,
+    "scraped_at": "2026-03-01T07:57:30.484230+00:00"
+  },
+  {
+    "anime_id": 52215,
+    "rank": 57,
+    "title": "Chi. Chikyuu no Undou ni Tsuite",
+    "type": "TV",
+    "episodes": 25,
+    "score": 8.71,
+    "members": 277649,
+    "scraped_at": "2026-03-01T07:57:30.484233+00:00"
+  },
+  {
+    "anime_id": 1575,
+    "rank": 58,
+    "title": "Code Geass: Hangyaku no Lelouch",
+    "type": "TV",
+    "episodes": 25,
+    "score": 8.71,
+    "members": 2446876,
+    "scraped_at": "2026-03-01T07:57:30.484236+00:00"
+  },
+  {
+    "anime_id": 45649,
+    "rank": 60,
+    "title": "The First Slam Dunk",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.71,
+    "members": 75051,
+    "scraped_at": "2026-03-01T07:57:30.484239+00:00"
+  },
+  {
+    "anime_id": 50172,
+    "rank": 62,
+    "title": "Mob Psycho 100 III",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.71,
+    "members": 843629,
+    "scraped_at": "2026-03-01T07:57:30.484241+00:00"
+  },
+  {
+    "anime_id": 44074,
+    "rank": 59,
+    "title": "Shiguang Dailiren",
+    "type": "ONA",
+    "episodes": 11,
+    "score": 8.71,
+    "members": 472098,
+    "scraped_at": "2026-03-01T07:57:30.484244+00:00"
+  },
+  {
+    "anime_id": 51009,
+    "rank": 61,
+    "title": "Jujutsu Kaisen 2nd Season",
+    "type": "TV",
+    "episodes": 23,
+    "score": 8.71,
+    "members": 1345363,
+    "scraped_at": "2026-03-01T07:57:30.484246+00:00"
+  },
+  {
+    "anime_id": 55690,
+    "rank": 65,
+    "title": "Boku no Kokoro no Yabai Yatsu 2nd Season",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.7,
+    "members": 299558,
+    "scraped_at": "2026-03-01T07:57:30.484249+00:00"
+  },
+  {
+    "anime_id": 55016,
+    "rank": null,
+    "title": "Idol",
+    "type": "Music",
+    "episodes": 1,
+    "score": 8.7,
+    "members": 27764,
+    "scraped_at": "2026-03-01T07:57:30.484252+00:00"
+  },
+  {
+    "anime_id": 53998,
+    "rank": 64,
+    "title": "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.7,
+    "members": 401428,
+    "scraped_at": "2026-03-01T07:57:30.484254+00:00"
+  },
+  {
+    "anime_id": 33095,
+    "rank": 66,
+    "title": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.7,
+    "members": 200981,
+    "scraped_at": "2026-03-01T07:57:30.484257+00:00"
+  },
+  {
+    "anime_id": 47778,
+    "rank": 63,
+    "title": "Kimetsu no Yaiba: Yuukaku-hen",
+    "type": "TV",
+    "episodes": 11,
+    "score": 8.7,
+    "members": 1712380,
+    "scraped_at": "2026-03-01T07:57:30.484260+00:00"
+  },
+  {
+    "anime_id": 61517,
+    "rank": 70,
+    "title": "Kingdom 6th Season",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.69,
+    "members": 35408,
+    "scraped_at": "2026-03-01T07:57:30.484262+00:00"
+  },
+  {
+    "anime_id": 53447,
+    "rank": 68,
+    "title": "Tu Bian Yingxiong X",
+    "type": "ONA",
+    "episodes": 24,
+    "score": 8.69,
+    "members": 233799,
+    "scraped_at": "2026-03-01T07:57:30.484265+00:00"
+  },
+  {
+    "anime_id": 33352,
+    "rank": 69,
+    "title": "Violet Evergarden",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.69,
+    "members": 1974984,
+    "scraped_at": "2026-03-01T07:57:30.484267+00:00"
+  },
+  {
+    "anime_id": 44,
+    "rank": 67,
+    "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen",
+    "type": "OVA",
+    "episodes": 4,
+    "score": 8.69,
+    "members": 291302,
+    "scraped_at": "2026-03-01T07:57:30.484270+00:00"
+  },
+  {
+    "anime_id": 59192,
+    "rank": 72,
+    "title": "Kimetsu no Yaiba Movie 1: Mugenjou-hen - Akaza Sairai",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.68,
+    "members": 344317,
+    "scraped_at": "2026-03-01T07:57:30.484272+00:00"
+  },
+  {
+    "anime_id": 58788,
+    "rank": 71,
+    "title": "Ikoku Nikki",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.68,
+    "members": 70005,
+    "scraped_at": "2026-03-01T07:57:30.484275+00:00"
+  },
+  {
+    "anime_id": 21939,
+    "rank": 73,
+    "title": "Mushishi Zoku Shou",
+    "type": "TV",
+    "episodes": 10,
+    "score": 8.68,
+    "members": 324724,
+    "scraped_at": "2026-03-01T07:57:30.484278+00:00"
+  },
+  {
+    "anime_id": 245,
+    "rank": 74,
+    "title": "Great Teacher Onizuka",
+    "type": "TV",
+    "episodes": 43,
+    "score": 8.68,
+    "members": 911242,
+    "scraped_at": "2026-03-01T07:57:30.484280+00:00"
+  },
+  {
+    "anime_id": 61930,
+    "rank": 78,
+    "title": "Uma Musume: Cinderella Gray Part 2",
+    "type": "TV",
+    "episodes": 10,
+    "score": 8.67,
+    "members": 56309,
+    "scraped_at": "2026-03-01T07:57:36.230074+00:00"
+  },
+  {
+    "anime_id": 56784,
+    "rank": 75,
+    "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+    "type": "TV",
+    "episodes": 14,
+    "score": 8.67,
+    "members": 283424,
+    "scraped_at": "2026-03-01T07:57:36.230101+00:00"
+  },
+  {
+    "anime_id": 5258,
+    "rank": 76,
+    "title": "Hajime no Ippo: New Challenger",
+    "type": "TV",
+    "episodes": 26,
+    "score": 8.67,
+    "members": 322771,
+    "scraped_at": "2026-03-01T07:57:36.230109+00:00"
+  },
+  {
+    "anime_id": 431,
+    "rank": 77,
+    "title": "Howl no Ugoku Shiro",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.67,
+    "members": 1475763,
+    "scraped_at": "2026-03-01T07:57:36.230114+00:00"
+  },
+  {
+    "anime_id": 164,
+    "rank": 80,
+    "title": "Mononoke Hime",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.67,
+    "members": 1369192,
+    "scraped_at": "2026-03-01T07:57:36.230119+00:00"
+  },
+  {
+    "anime_id": 40434,
+    "rank": 79,
+    "title": "Mo Dao Zu Shi: Wanjie Pian",
+    "type": "ONA",
+    "episodes": 12,
+    "score": 8.67,
+    "members": 95763,
+    "scraped_at": "2026-03-01T07:57:36.230123+00:00"
+  },
+  {
+    "anime_id": 57864,
+    "rank": 81,
+    "title": "Monogatari Series: Off & Monster Season",
+    "type": "ONA",
+    "episodes": 14,
+    "score": 8.65,
+    "members": 100506,
+    "scraped_at": "2026-03-01T07:57:36.230128+00:00"
+  },
+  {
+    "anime_id": 57647,
+    "rank": 83,
+    "title": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.65,
+    "members": 50382,
+    "scraped_at": "2026-03-01T07:57:36.230133+00:00"
+  },
+  {
+    "anime_id": 457,
+    "rank": 82,
+    "title": "Mushishi",
+    "type": "TV",
+    "episodes": 26,
+    "score": 8.65,
+    "members": 899185,
+    "scraped_at": "2026-03-01T07:57:36.230137+00:00"
+  },
+  {
+    "anime_id": 33050,
+    "rank": 89,
+    "title": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.64,
+    "members": 401797,
+    "scraped_at": "2026-03-01T07:57:36.230141+00:00"
+  },
+  {
+    "anime_id": 2001,
+    "rank": 87,
+    "title": "Tengen Toppa Gurren Lagann",
+    "type": "TV",
+    "episodes": 27,
+    "score": 8.64,
+    "members": 1750486,
+    "scraped_at": "2026-03-01T07:57:36.230147+00:00"
+  },
+  {
+    "anime_id": 49413,
+    "rank": 85,
+    "title": "Shiguang Dailiren II",
+    "type": "ONA",
+    "episodes": 12,
+    "score": 8.64,
+    "members": 167786,
+    "scraped_at": "2026-03-01T07:57:36.230153+00:00"
+  },
+  {
+    "anime_id": 23273,
+    "rank": 84,
+    "title": "Shigatsu wa Kimi no Uso",
+    "type": "TV",
+    "episodes": 22,
+    "score": 8.64,
+    "members": 2397668,
+    "scraped_at": "2026-03-01T07:57:36.230157+00:00"
+  },
+  {
+    "anime_id": 50399,
+    "rank": 88,
+    "title": "Tian Guan Cifu Er",
+    "type": "ONA",
+    "episodes": 12,
+    "score": 8.64,
+    "members": 63408,
+    "scraped_at": "2026-03-01T07:57:36.230163+00:00"
+  },
+  {
+    "anime_id": 35760,
+    "rank": 86,
+    "title": "Shingeki no Kyojin Season 3",
+    "type": "TV",
+    "episodes": 12,
+    "score": 8.64,
+    "members": 2632631,
+    "scraped_at": "2026-03-01T07:57:36.230167+00:00"
+  },
+  {
+    "anime_id": 55255,
+    "rank": null,
+    "title": "Alien Stage",
+    "type": "Music",
+    "episodes": 12,
+    "score": 8.63,
+    "members": 15174,
+    "scraped_at": "2026-03-01T07:57:36.230172+00:00"
+  },
+  {
+    "anime_id": 34599,
+    "rank": 90,
+    "title": "Made in Abyss",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.63,
+    "members": 1535829,
+    "scraped_at": "2026-03-01T07:57:36.230179+00:00"
+  },
+  {
+    "anime_id": 11665,
+    "rank": 91,
+    "title": "Natsume Yuujinchou Shi",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.63,
+    "members": 264706,
+    "scraped_at": "2026-03-01T07:57:36.230185+00:00"
+  },
+  {
+    "anime_id": 22135,
+    "rank": 93,
+    "title": "Ping Pong the Animation",
+    "type": "TV",
+    "episodes": 11,
+    "score": 8.63,
+    "members": 435485,
+    "scraped_at": "2026-03-01T07:57:36.230256+00:00"
+  },
+  {
+    "anime_id": 46102,
+    "rank": 92,
+    "title": "Odd Taxi",
+    "type": "TV",
+    "episodes": 13,
+    "score": 8.63,
+    "members": 503302,
+    "scraped_at": "2026-03-01T07:57:36.230263+00:00"
+  },
+  {
+    "anime_id": 58125,
+    "rank": 94,
+    "title": "Look Back",
+    "type": "Movie",
+    "episodes": 1,
+    "score": 8.62,
+    "members": 229326,
+    "scraped_at": "2026-03-01T07:57:36.230268+00:00"
+  },
+  {
+    "anime_id": 49818,
+    "rank": 97,
+    "title": "Guimi Zhi Zhu: Xiaochou Pian",
+    "type": "ONA",
+    "episodes": 13,
+    "score": 8.62,
+    "members": 190588,
+    "scraped_at": "2026-03-01T07:57:36.230272+00:00"
+  },
+  {
+    "anime_id": 42310,
+    "rank": 95,
+    "title": "Cyberpunk: Edgerunners",
+    "type": "ONA",
+    "episodes": 10,
+    "score": 8.62,
+    "members": 1022119,
+    "scraped_at": "2026-03-01T07:57:36.230276+00:00"
+  },
+  {
+    "anime_id": 1535,
+    "rank": 96,
+    "title": "Death Note",
+    "type": "TV",
+    "episodes": 37,
+    "score": 8.62,
+    "members": 4252636,
+    "scraped_at": "2026-03-01T07:57:36.230280+00:00"
+  },
+  {
+    "anime_id": 28891,
+    "rank": 98,
+    "title": "Haikyuu!! Second Season",
+    "type": "TV",
+    "episodes": 25,
+    "score": 8.62,
+    "members": 1553977,
+    "scraped_at": "2026-03-01T07:57:36.230284+00:00"
+  }
+]

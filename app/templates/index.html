@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — Anime Analytics Hub{% endblock %}
+{% block content %}
+
+<h1>📊 Dashboard</h1>
+<p class="subtitle">Live data from PostgreSQL · Updated daily by Airflow</p>
+
+<!-- Pipeline health strip -->
+{% if health.watermark %}
+<div class="health">
+  Last pipeline run: <strong>{{ health.watermark.last_run_at }}</strong> &nbsp;|&nbsp;
+  Records loaded this run: <strong>{{ health.watermark.records_loaded }}</strong> &nbsp;|&nbsp;
+  Quality pass rate:
+  {% if health.quality.total_scraped %}
+    <strong>{{ health.quality.passed }}/{{ health.quality.total_scraped }}</strong>
+  {% else %}—{% endif %}
+</div>
+{% endif %}
+
+<!-- Summary stats -->
+<div class="stat-row">
+  <div class="card"><div class="val">{{ stats.total_anime or 0 }}</div><div class="lbl">Total Anime</div></div>
+  <div class="card"><div class="val">{{ stats.avg_score or '—' }}</div><div class="lbl">Avg Score</div></div>
+  <div class="card"><div class="val">{{ stats.max_score or '—' }}</div><div class="lbl">Top Score</div></div>
+  <div class="card">
+    <div class="val">{% if stats.total_members %}{{ '{:,.0f}'.format(stats.total_members) }}{% else %}—{% endif %}</div>
+    <div class="lbl">Total Members</div>
+  </div>
+</div>
+
+<div class="grid2">
+
+  <!-- Top Rated -->
+  <div class="section">
+    <h2>⭐ Top Rated</h2>
+    <table>
+      <thead><tr><th>Rank</th><th>Title</th><th>Score</th></tr></thead>
+      <tbody>
+        {% for a in top_rated %}
+        <tr>
+          <td class="rank">#{{ a.rank }}</td>
+          <td>{{ a.title }}</td>
+          <td class="score">{{ a.score }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="3" style="color:#2a3a4a;text-align:center;padding:24px;">Run the pipeline to populate data.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Most Popular -->
+  <div class="section">
+    <h2>🔥 Most Popular</h2>
+    <table>
+      <thead><tr><th>Title</th><th>Members</th><th>Score</th></tr></thead>
+      <tbody>
+        {% for a in most_popular %}
+        <tr>
+          <td>{{ a.title }}</td>
+          <td>{{ '{:,}'.format(a.members) if a.members else '—' }}</td>
+          <td class="score">{{ a.score }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="3" style="color:#2a3a4a;text-align:center;padding:24px;">No data yet.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- By Type -->
+<div class="section">
+  <h2>📂 By Type</h2>
+  <table>
+    <thead><tr><th>Type</th><th>Count</th><th>Avg Score</th></tr></thead>
+    <tbody>
+      {% for t in type_breakdown %}
+      <tr>
+        <td><span class="badge">{{ t.type }}</span></td>
+        <td>{{ t.total }}</td>
+        <td class="score">{{ t.avg_score }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

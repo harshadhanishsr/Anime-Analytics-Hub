@@ -1,0 +1,17 @@
+[2026-03-01T08:05:37.150+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: anime_etl.transform manual__2026-03-01T08:05:28.487513+00:00 [queued]>
+[2026-03-01T08:05:37.160+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: anime_etl.transform manual__2026-03-01T08:05:28.487513+00:00 [queued]>
+[2026-03-01T08:05:37.161+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-01T08:05:37.175+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform> on 2026-03-01 08:05:28.487513+00:00
+[2026-03-01T08:05:37.181+0000] {standard_task_runner.py:60} INFO - Started process 199 to run task
+[2026-03-01T08:05:37.184+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'anime_etl', 'transform', 'manual__2026-03-01T08:05:28.487513+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/anime_etl_dag.py', '--cfg-path', '/tmp/tmpb6husd2p']
+[2026-03-01T08:05:37.186+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask transform
+[2026-03-01T08:05:37.247+0000] {task_command.py:423} INFO - Running <TaskInstance: anime_etl.transform manual__2026-03-01T08:05:28.487513+00:00 [running]> on host 0cf211f31226
+[2026-03-01T08:05:37.333+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='anime_etl' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2026-03-01T08:05:28.487513+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-01T08:05:28.487513+00:00'
+[2026-03-01T08:05:38.390+0000] {logging_mixin.py:188} INFO - [transform] Loading: /opt/airflow/data/raw/anime_raw_20260301_080536.json
+[2026-03-01T08:05:38.394+0000] {logging_mixin.py:188} INFO - [transform] Raw records loaded: 100
+[2026-03-01T08:05:38.469+0000] {logging_mixin.py:188} INFO - [transform] Passed validation : 98
+[2026-03-01T08:05:38.469+0000] {logging_mixin.py:188} INFO - [transform] Failed validation : 2
+[2026-03-01T08:05:38.528+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-01T08:05:38.546+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=anime_etl, task_id=transform, execution_date=20260301T080528, start_date=20260301T080537, end_date=20260301T080538
+[2026-03-01T08:05:38.601+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-01T08:05:38.624+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

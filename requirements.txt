@@ -1,0 +1,10 @@
+# Install in your local venv for running the Flask dashboard locally:
+# pip install -r requirements.txt
+
+requests==2.31.0
+beautifulsoup4==4.12.3
+pandas==2.2.0
+sqlalchemy==2.0.27
+psycopg2-binary==2.9.9
+flask==3.0.2
+python-dotenv==1.0.1

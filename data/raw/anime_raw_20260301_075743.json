@@ -1,0 +1,22 @@
+[
+  {
+    "anime_id": 55016,
+    "rank": null,
+    "title": "Idol",
+    "type": "Music",
+    "episodes": 1,
+    "score": 8.7,
+    "members": 27764,
+    "scraped_at": "2026-03-01T07:57:42.356180+00:00"
+  },
+  {
+    "anime_id": 55255,
+    "rank": null,
+    "title": "Alien Stage",
+    "type": "Music",
+    "episodes": 12,
+    "score": 8.63,
+    "members": 15174,
+    "scraped_at": "2026-03-01T07:57:43.835294+00:00"
+  }
+]

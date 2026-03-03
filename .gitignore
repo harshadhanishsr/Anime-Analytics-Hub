@@ -1,0 +1,7 @@
+data/          # raw JSON and DB files — never commit data
+logs/          # Airflow logs
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/

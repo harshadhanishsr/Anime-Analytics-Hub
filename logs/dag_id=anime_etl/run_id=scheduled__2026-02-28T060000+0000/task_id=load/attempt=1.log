@@ -1,0 +1,154 @@
+[2026-03-01T07:57:36.390+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T07:57:36.397+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T07:57:36.398+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-01T07:57:36.412+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load> on 2026-02-28 06:00:00+00:00
+[2026-03-01T07:57:36.419+0000] {standard_task_runner.py:60} INFO - Started process 311 to run task
+[2026-03-01T07:57:36.422+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'anime_etl', 'load', 'scheduled__2026-02-28T06:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/anime_etl_dag.py', '--cfg-path', '/tmp/tmp_0ikbec0']
+[2026-03-01T07:57:36.425+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask load
+[2026-03-01T07:57:36.488+0000] {task_command.py:423} INFO - Running <TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [running]> on host c1d546777f68
+[2026-03-01T07:57:36.576+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='anime_etl' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-02-28T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-28T06:00:00+00:00'
+[2026-03-01T07:57:37.008+0000] {logging_mixin.py:188} INFO - [loader] Schema and indexes ready.
+[2026-03-01T07:57:37.049+0000] {logging_mixin.py:188} INFO - [loader] Upserted 98 records into anime table.
+[2026-03-01T07:57:37.051+0000] {logging_mixin.py:188} INFO - [loader] Quality log: 98/100 passed (2 rejected).
+[2026-03-01T07:57:37.054+0000] {logging_mixin.py:188} INFO - [loader] Watermark updated at 2026-03-01T07:57:37.053937+00:00
+[2026-03-01T07:57:37.054+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-01T07:57:37.065+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=anime_etl, task_id=load, execution_date=20260228T060000, start_date=20260301T075736, end_date=20260301T075737
+[2026-03-01T07:57:37.116+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-01T07:57:37.135+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-01T08:00:49.162+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T08:00:49.175+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T08:00:49.176+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-01T08:00:49.190+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load> on 2026-02-28 06:00:00+00:00
+[2026-03-01T08:00:49.200+0000] {standard_task_runner.py:60} INFO - Started process 210 to run task
+[2026-03-01T08:00:49.204+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'anime_etl', 'load', 'scheduled__2026-02-28T06:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/anime_etl_dag.py', '--cfg-path', '/tmp/tmpjvu0patf']
+[2026-03-01T08:00:49.207+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask load
+[2026-03-01T08:00:49.290+0000] {task_command.py:423} INFO - Running <TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [running]> on host e9e57f5c8db6
+[2026-03-01T08:00:49.401+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='anime_etl' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-02-28T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-28T06:00:00+00:00'
+[2026-03-01T08:00:49.754+0000] {logging_mixin.py:188} INFO - [loader] Schema and indexes ready.
+[2026-03-01T08:00:49.797+0000] {logging_mixin.py:188} INFO - [loader] Upserted 98 records into anime table.
+[2026-03-01T08:00:49.800+0000] {logging_mixin.py:188} INFO - [loader] Quality log: 98/100 passed (2 rejected).
+[2026-03-01T08:00:49.803+0000] {logging_mixin.py:188} INFO - [loader] Watermark updated at 2026-03-01T08:00:49.802975+00:00
+[2026-03-01T08:00:49.803+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-01T08:00:49.815+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=anime_etl, task_id=load, execution_date=20260228T060000, start_date=20260301T080049, end_date=20260301T080049
+[2026-03-01T08:00:49.859+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-01T08:00:49.877+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-01T08:05:39.414+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T08:05:39.422+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T08:05:39.423+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-01T08:05:39.437+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load> on 2026-02-28 06:00:00+00:00
+[2026-03-01T08:05:39.443+0000] {standard_task_runner.py:60} INFO - Started process 203 to run task
+[2026-03-01T08:05:39.447+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'anime_etl', 'load', 'scheduled__2026-02-28T06:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/anime_etl_dag.py', '--cfg-path', '/tmp/tmphmgbm7sd']
+[2026-03-01T08:05:39.453+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask load
+[2026-03-01T08:05:39.515+0000] {task_command.py:423} INFO - Running <TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [running]> on host 0cf211f31226
+[2026-03-01T08:05:39.607+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='anime_etl' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-02-28T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-28T06:00:00+00:00'
+[2026-03-01T08:05:39.991+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+DETAIL:  Key (typname, typnamespace)=(anime, 2200) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/anime_etl_dag.py", line 87, in task_load
+    run(clean_df=clean_df, rejected_df=rejected_df)
+  File "/opt/airflow/pipeline/loader.py", line 130, in run
+    create_schema(engine)
+  File "/opt/airflow/pipeline/loader.py", line 36, in create_schema
+    conn.execute(text(statement))
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+DETAIL:  Key (typname, typnamespace)=(anime, 2200) already exists.
+
+[SQL: -- schema.sql
+-- ----------
+-- Run once on startup (handled automatically by loader.py).
+-- Defines tables and indexes for the anime pipeline.
+
+
+-- ── Main Table ───────────────────────────────────────────────────────────────
+CREATE TABLE IF NOT EXISTS anime (
+    anime_id    INTEGER     PRIMARY KEY,
+    rank        INTEGER     NOT NULL,
+    title       TEXT        NOT NULL,
+    type        TEXT,                       -- TV, Movie, OVA, etc.
+    episodes    INTEGER,
+    score       NUMERIC(4, 2),
+    members     INTEGER,
+    url         TEXT,
+    scraped_at  TIMESTAMP   DEFAULT NOW()
+)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2026-03-01T08:05:40.023+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=anime_etl, task_id=load, execution_date=20260228T060000, start_date=20260301T080539, end_date=20260301T080540
+[2026-03-01T08:05:40.038+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task load ((psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+DETAIL:  Key (typname, typnamespace)=(anime, 2200) already exists.
+
+[SQL: -- schema.sql
+-- ----------
+-- Run once on startup (handled automatically by loader.py).
+-- Defines tables and indexes for the anime pipeline.
+
+
+-- ── Main Table ───────────────────────────────────────────────────────────────
+CREATE TABLE IF NOT EXISTS anime (
+    anime_id    INTEGER     PRIMARY KEY,
+    rank        INTEGER     NOT NULL,
+    title       TEXT        NOT NULL,
+    type        TEXT,                       -- TV, Movie, OVA, etc.
+    episodes    INTEGER,
+    score       NUMERIC(4, 2),
+    members     INTEGER,
+    url         TEXT,
+    scraped_at  TIMESTAMP   DEFAULT NOW()
+)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 203)
+[2026-03-01T08:05:40.061+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-03-01T08:05:40.083+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-01T08:59:27.252+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T08:59:27.273+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [queued]>
+[2026-03-01T08:59:27.273+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-01T08:59:27.286+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load> on 2026-02-28 06:00:00+00:00
+[2026-03-01T08:59:27.302+0000] {standard_task_runner.py:60} INFO - Started process 609 to run task
+[2026-03-01T08:59:27.306+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'anime_etl', 'load', 'scheduled__2026-02-28T06:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/anime_etl_dag.py', '--cfg-path', '/tmp/tmpustab69a']
+[2026-03-01T08:59:27.308+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask load
+[2026-03-01T08:59:27.368+0000] {task_command.py:423} INFO - Running <TaskInstance: anime_etl.load scheduled__2026-02-28T06:00:00+00:00 [running]> on host 3f3742ee6226
+[2026-03-01T08:59:27.460+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='anime_etl' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-02-28T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-28T06:00:00+00:00'
+[2026-03-01T08:59:28.074+0000] {logging_mixin.py:188} INFO - [loader] Schema and indexes ready.
+[2026-03-01T08:59:32.476+0000] {logging_mixin.py:188} INFO - [loader] Upserted 14784 records into anime table.
+[2026-03-01T08:59:32.485+0000] {logging_mixin.py:188} INFO - [loader] Quality log: 14784/29834 passed (15050 rejected).
+[2026-03-01T08:59:32.488+0000] {logging_mixin.py:188} INFO - [loader] Watermark updated at 2026-03-01T08:59:32.488358+00:00
+[2026-03-01T08:59:32.490+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-01T08:59:32.504+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=anime_etl, task_id=load, execution_date=20260228T060000, start_date=20260301T085927, end_date=20260301T085932
+[2026-03-01T08:59:32.535+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-01T08:59:32.552+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

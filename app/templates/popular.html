@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Most Popular — Anime Analytics Hub{% endblock %}
+{% block content %}
+<h1>🔥 Most Popular Anime</h1>
+<p class="subtitle">Sorted by member count · Top 50</p>
+<table>
+  <thead><tr><th>Rank</th><th>Title</th><th>Members</th><th>Score</th></tr></thead>
+  <tbody>
+    {% for a in anime %}
+    <tr>
+      <td class="rank">#{{ a.rank }}</td>
+      <td>{{ a.title }}</td>
+      <td>{{ '{:,}'.format(a.members) if a.members else '—' }}</td>
+      <td class="score">{{ a.score }}</td>
+    </tr>
+    {% else %}
+    <tr><td colspan="4" style="color:#2a3a4a;text-align:center;padding:32px;">No data yet.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
